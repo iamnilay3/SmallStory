@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="Gfaninkem.2143820B16B91" Publisher="CN=96431080-CC12-4E9A-86C5-609154538B71" Version="1.1.0.1" />
+  <Properties>
+    <DisplayName>励志故事集锦</DisplayName>
+    <PublisherDisplayName>迈奔灵动科技（北京）</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="哲理小故事.App">
+      <VisualElements DisplayName="哲理小故事" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="哲理小故事" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" WideLogo="Assets\WideLogo.png" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
